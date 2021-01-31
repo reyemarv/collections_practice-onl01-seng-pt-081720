@@ -7,7 +7,7 @@ def sort_array_desc(array)
 end 
 
 def sort_array_char_count(array)
-  array.sort{|x,y| x.length <=> y.length}
+  array.sort{|x, y| x.length <=> y.length}
 end 
 
 def swap_elements(array)
@@ -26,5 +26,5 @@ def kesha_maker(array)
 end 
 
 def sum_array(array)
-  array.inject{|sum, num|
+  array.inject{|sum, num| sum + num}
 end 
