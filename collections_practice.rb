@@ -34,5 +34,5 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  
+  array.each_with_inex.collect{|element, index| if index == 2
 end 
