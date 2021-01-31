@@ -38,4 +38,7 @@ def add_s(array)
     if index == 2
       element
     else 
+      element << "s"
+    end 
+  end 
 end 
